@@ -1,0 +1,35 @@
+ 
+INSERTING DATA INTO BOOKS TABLE
+
+  insert into books values('1', 'Let Us C', 'Yeshavant P. Kanetkar', '200');
+  insert into books values('2', 'Thinking In Java', 'Thinking In Java', '300');
+  insert into books values('3', 'Computer Networking', 'James F. Kurose', '250');
+  insert into books values('4', 'Head First C#', 'Andrew Stellman', '400');
+  insert into books values('5', 'What is HTML5?', 'Brett McLaughlin', '300');
+  insert into books values('6', 'HTML5 in Action', 'Jeo Lennon', '569');
+  insert into books values('7', 'OOP With C++', 'Balagurusamy', '308');
+  insert into books values('8', 'C++:The Complete Reference', 'Herbert Schildt', '532');
+  insert into books values('9', 'Head First SQL', 'Lynn Beighley', '450');
+  insert into books values('10', 'SQL:The Complete Reference', 'James Groff', '667');
+
+
+INSERTING DATA INTO ORDER_DETAILDS TABLE
+
+
+ insert into Order_details values ('1','3',  'Amith', '9673960407', 'Radhika Vihar', '2016-11-08', '3');
+  insert into Order_details values ('2','2',  'Mona', '875451395', 'Rakshak Nagar', '2016-11-08', '3');
+  insert into Order_details values ('3','7', 'Kavi', '7845127845', 'Rakshak Nagar Gold', '2016-11-08', '2');
+  insert into Order_details values ('4','8',  'Monalisa', '784512788', 'Banglore', '2016-11-08', '3');
+  insert into Order_details values('5', '3', 'Amol', '784575215', 'Wadganosheri', '2016-11-08', '3');
+  insert into Order_details values ('6','5',  'Amit', '78521868', 'Banglore', '2016-11-08', '2');
+   
+
+INSERTING DATA INTO USERS TABLE
+
+  
+  insert into users values('Amith', 'Wagholi', 'amit.mishra369@gmail.com', '9673960407', 'mona9Dutta', '2016-11-08');
+  insert into users values ('Hari', 'Chandan Nagar', 'hari39@rediffmail.com', '7845127421', 'Admin99@', '2016-11-08');
+  insert into users values ('Monalisa', 'Rakshak Nagar', 'mona9@gmail.com', '9878454503', 'pinaki9@', '2016-11-08');
+  insert into users values('Narendra', 'Rajpath', 'narendra17@pmo.nic.in', '8877990011', 'Delhi9%', '2016-11-08');
+  insert into users values ('Kavita', 'Rakshk Nagar Gold', 'kavi23@gmail.com', '9878521402', 'Alia8&', '2016-11-08');
+  
